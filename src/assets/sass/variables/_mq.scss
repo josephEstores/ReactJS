@@ -1,0 +1,127 @@
+﻿$XXLarge: 1680px;
+$XLarge: 1280px;
+$Large: 1024px;
+$Medium: 768px;
+$Small: 480px;
+$XSmall: 320px;
+
+//#Region Screen Sizes
+
+@mixin XXLarge {
+    @media (min-width: #{$XXLarge}) {
+        @content;
+    }
+}
+
+@mixin XLarge {
+    @media (min-width: #{$XLarge}) {
+        @content;
+    }
+}
+
+@mixin Large {
+    @media (min-width: #{$Large}) {
+        @content;
+    }
+}
+
+@mixin Medium {
+    @media (min-width: #{$Medium}) {
+        @content;
+    }
+}
+
+@mixin Small {
+    @media (min-width: #{$Small}) {
+        @content;
+    }
+}
+
+@mixin XSmall {
+    @media (min-width: #{$XSmall}) {
+        @content;
+    }
+}
+
+
+//#End Region Screen Sizes
+
+//#Region Screen Sizes for Landscape
+@mixin XXLargeOL {
+    @media (min-width: #{$XXLarge}) and (orientation:landscape) {
+        @content;
+    }
+}
+
+@mixin XLargeOL() {
+    @media (min-width: #{$XLarge}) and (orientation:landscape) {
+        @content;
+    }
+}
+
+@mixin LargeOL {
+    @media (min-width: #{$Large}) and (orientation:landscape) {
+        @content;
+    }
+}
+
+@mixin MediumOL {
+    @media (min-width: #{$Medium}) and (orientation:landscape) {
+        @content;
+    }
+}
+
+@mixin SmallOL {
+    @media (min-width: #{$Small}) and (orientation:landscape) {
+        @content;
+    }
+}
+
+@mixin XSmallOL {
+    @media (min-width: #{$XSmall}) and (orientation:landscape) {
+        @content;
+    }
+}
+//#End Region Screen Sizes
+
+//#Region Screen Sizes Landscape
+@mixin XXLargeLandscape {
+    @media (min-height: #{$XXLarge}) {
+        @content;
+    }
+}
+
+@mixin XLargeLandscape {
+    @media (min-height: #{$XLarge}) {
+        @content;
+    }
+}
+
+@mixin LargeLandscape {
+    @media (min-height: #{$Large}) {
+        @content;
+    }
+}
+
+@mixin MediumLandscape {
+    @media (min-height: #{$Medium}) {
+        @content;
+    }
+}
+
+@mixin SmallLandscape {
+    @media (min-height: #{$Small}) {
+        @content;
+    }
+}
+
+@mixin XSmallLandscape {
+    @media (min-height: #{$XSmall}) {
+        @content;
+    }
+}
+//#End Region Screen Sizes Landscape
+
+
+
+

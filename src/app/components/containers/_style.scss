@@ -9,17 +9,16 @@ $products: (
 
 @each $key, $product in $products {
     .product-#{$product} {
-        color: $yellow;
+        color: $newbtnOrange;
         margin: 15px;
-        .product-#{$product} {
-            width: 100%;
-        }
+        
     }    
 }
 
 @each $name in 'title' 'change' {
     .library-#{$name} {
         margin: 10px * 1.5;
+        color: $green;
     }
 }
 

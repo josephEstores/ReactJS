@@ -1,0 +1,38 @@
+﻿//color functions
+
+/* Returns lighter color of $color by specifying $percentage */
+@function whiten($color, $percentage) {
+  @return mix(rgb(255, 255, 255), $color, $percentage);
+}
+
+/* Returns darker color of $color by specifying $percentage */
+@function blacken($color, $percentage) {
+  @return mix(rgb(0, 0, 0), $color, $percentage);
+}
+
+
+//Main palette used for elements, links, and active states
+$orange: #ED8B20;
+$blueGray: #3D4750;
+$blue: #3F80A6;
+$darkBlue: #252B30;
+$btnOrange: #E4832E;
+$newbtnOrange: #BA5C09;
+$newBlue: #2E5E79;
+
+//Secondary palette for errors and alerts
+$green:#5AB264;
+$red: #DD545D;
+$violet: #8086BF;
+
+//Dark grays used for text
+$black: #000000;
+$darkGray: #333333;
+$gray: #666666;
+$lightGray: #9A9A9A;
+
+//others
+$outlineStroke:#D9D9D9;
+$pageBGcolor: #F2F2F2;
+$white:#FFFFFF;
+
