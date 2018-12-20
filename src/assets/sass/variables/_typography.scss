@@ -1,0 +1,58 @@
+﻿// /*@import url('../../fonts/Graphik-Bold.otf');
+// @import url('../../fonts/Graphik-Light.otf');
+// @import url('../../fonts/Graphik-Regular.otf');*/
+
+// @font-face {
+//     font-family: 'Graphik-Bold';
+//     src: url('../../fonts/Graphik-Bold.eot');
+//     src: url('../../fonts/Graphik-Bold.otf') format('opentype'), 
+//          url('../../fonts/Graphik-Bold.eot?#iefix') format('embedded-opentype');
+// }
+
+// @font-face {
+//     font-family: 'Graphik-Light';
+//     src: url('../../fonts/Graphik-Light.eot');
+//     src: url('../../fonts/Graphik-Light.otf') format('opentype'),
+//          url('../../fonts/Graphik-Light.eot?#iefix') format('embedded-opentype');
+// }
+
+// @font-face {
+//     font-family: 'Graphik-Regular';
+//     src: url('../../fonts/Graphik-Regular.eot');
+//     src: url('../../fonts/Graphik-Regular.otf') format('opentype'), 
+//          url('../../fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype');
+// }
+
+//  @font-face {
+//      font-family: 'Roboto-Light';
+//      src: url('../../fonts/Roboto-Light.ttf') format('truetype');
+//  }
+
+//  @font-face {
+//      font-family: 'Roboto-Regular';
+//      src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
+//  }
+
+//  @font-face {
+//      font-family: 'Graphik-Semi-Bold';
+//      src: url('../../fonts/Graphik-Semibold.otf') format('truetype');
+//  }
+
+$graphik-light: 'Graphik-Light', sans-serif;
+$graphik-regular: 'Graphik-Regular', sans-serif;
+$graphik-bold: 'Graphik-Bold', sans-serif;  
+$roboto-light: 'Roboto-Light', sans-serif;
+$roboto-regular: 'Roboto-Regular', sans-serif;
+$graphik-semi-bold: 'Graphik-Semi-Bold', sans-serif;
+
+/*NEW VARIABLES*/
+$arial: arial;
+$roboto-graphik-light: "Roboto-Light","Graphik-Light", sans-serif;
+$graphik: 'Graphik', sans-serif;
+$clearSans-regular: 'ClearSans-Regular',sans-serif;
+$roboto: 'Roboto', sans-serif;
+$graphik-thin: "Graphik-Thin", sans-serif;
+$helvetica-neue-arial-helvetica: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$tahoma-verdana: Tahoma, Verdana, sans-serif;
+$times-new-roman: 'Times New Roman', Times, sans-serif;
+$trebuchet: Trebuchet, Arial, sans-serif;

@@ -1,0 +1,29 @@
+@import '../../../assets/sass/variables/_colors.scss';
+
+$products: (
+    wrapper: wrapper,
+    container: container,
+    name: name,
+    image: image
+);
+
+@each $key, $product in $products {
+    .product-#{$product} {
+        color: $yellow;
+        margin: 15px;
+        .product-#{$product} {
+            width: 100%;
+        }
+    }    
+}
+
+@each $name in 'title' 'change' {
+    .library-#{$name} {
+        margin: 10px * 1.5;
+    }
+}
+
+//for Book.js
+.book-wrapper {
+    margin: 10px;
+}
